@@ -35,7 +35,7 @@ rule C_COMPILER__led_blink_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__led_blink_Debug
-  command = $PRE_LINK && /c/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe $FLAGS -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T "/c/Users/Admin/Desktop/led_blink/STM32F407XX_FLASH.ld" --specs=nano.specs -Wl,-Map=led_blink.map -Wl,--gc-sections -Wl,--start-group -lc -lm -Wl,--end-group -Wl,--print-memory-usage $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /c/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe $FLAGS -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T "/c/Users/Admin/Desktop/led_blink/STM32F407XX_FLASH.ld" --specs=nano.specs -Wl,-Map=led_blink.map -Wl,--gc-sections -Wl,--start-group -lc -lm -Wl,--end-group -Wl,--print-memory-usage -u _printf_float -lm $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
