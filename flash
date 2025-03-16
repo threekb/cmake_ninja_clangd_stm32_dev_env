@@ -2,3 +2,5 @@ source [find interface/stlink.cfg]
 source [find target/stm32f4x.cfg]
 
 program C:/Users/Admin/Desktop/led_blink/build/led_blink.bin 0x08000000 verify reset exit
+
+# you can use this file by executing openocd -f flash in your terminal
