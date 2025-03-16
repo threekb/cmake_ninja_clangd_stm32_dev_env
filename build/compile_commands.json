@@ -1,0 +1,128 @@
+[
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/led_blink.dir/Core/Src/main.c.obj -c C:/Users/Admin/Desktop/led_blink/Core/Src/main.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Core/Src/main.c",
+  "output": "CMakeFiles/led_blink.dir/Core/Src/main.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj -c C:/Users/Admin/Desktop/led_blink/Core/Src/gpio.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Core/Src/gpio.c",
+  "output": "CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj -c C:/Users/Admin/Desktop/led_blink/Core/Src/stm32f4xx_it.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Core/Src/stm32f4xx_it.c",
+  "output": "CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj -c C:/Users/Admin/Desktop/led_blink/Core/Src/stm32f4xx_hal_msp.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Core/Src/stm32f4xx_hal_msp.c",
+  "output": "CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj -c C:/Users/Admin/Desktop/led_blink/Core/Src/sysmem.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Core/Src/sysmem.c",
+  "output": "CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj -c C:/Users/Admin/Desktop/led_blink/Core/Src/syscalls.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Core/Src/syscalls.c",
+  "output": "CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -x assembler-with-cpp -MMD -MP -g -o CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj -c C:/Users/Admin/Desktop/led_blink/startup_stm32f407xx.s",
+  "file": "C:/Users/Admin/Desktop/led_blink/startup_stm32f407xx.s",
+  "output": "CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj -c C:/Users/Admin/Desktop/led_blink/Core/Src/system_stm32f4xx.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Core/Src/system_stm32f4xx.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/led_blink/build",
+  "command": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER -IC:/Users/Admin/Desktop/led_blink/Core/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Admin/Desktop/led_blink/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -c C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+  "file": "C:/Users/Admin/Desktop/led_blink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+}
+]
