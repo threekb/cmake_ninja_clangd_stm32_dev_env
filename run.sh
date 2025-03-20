@@ -54,4 +54,4 @@ echo "HEX file size:"
 arm-none-eabi-size "$hex_file"
 
 # 烧录
-openocd -f interface/stlink.cfg -f target/stm32f4x.cfg -c "program $hex_file verify reset exit"
+openocd -f interface/cmsis-dap.cfg -f target/stm32f4x.cfg -c "program $hex_file verify reset exit"

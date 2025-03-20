@@ -21,6 +21,7 @@
 #include "gpio.h"
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_gpio.h"
+#include <stdint.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -45,7 +46,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+uint32_t test_cnt = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -97,7 +98,8 @@ int main(void)
   while (1)
   {
     HAL_GPIO_TogglePin(led_GPIO_Port, led_Pin);
-    HAL_Delay(100);
+    test_cnt ++;
+    HAL_Delay(10);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

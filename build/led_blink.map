@@ -2369,7 +2369,7 @@ LOAD C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/.
                 0x08000000                g_pfnVectors
                 0x08000188                        . = ALIGN (0x4)
 
-.text           0x08000190     0x4a94
+.text           0x08000190     0x4aa0
                 0x08000190                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000190       0xa0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memchr.o)
@@ -2679,275 +2679,275 @@ LOAD C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/.
  .text.HAL_Delay
                 0x08004488       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                 0x08004488                HAL_Delay
- .text.main     0x080044d0       0x28 CMakeFiles/led_blink.dir/Core/Src/main.c.obj
+ .text.main     0x080044d0       0x34 CMakeFiles/led_blink.dir/Core/Src/main.c.obj
                 0x080044d0                main
  .text.SystemClock_Config
-                0x080044f8       0xd4 CMakeFiles/led_blink.dir/Core/Src/main.c.obj
-                0x080044f8                SystemClock_Config
+                0x08004504       0xd4 CMakeFiles/led_blink.dir/Core/Src/main.c.obj
+                0x08004504                SystemClock_Config
  .text.Error_Handler
-                0x080045cc        0xc CMakeFiles/led_blink.dir/Core/Src/main.c.obj
-                0x080045cc                Error_Handler
+                0x080045d8        0xc CMakeFiles/led_blink.dir/Core/Src/main.c.obj
+                0x080045d8                Error_Handler
  .text.MX_GPIO_Init
-                0x080045d8       0xa0 CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj
-                0x080045d8                MX_GPIO_Init
+                0x080045e4       0xa0 CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj
+                0x080045e4                MX_GPIO_Init
  .text.NMI_Handler
-                0x08004678        0x8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08004678                NMI_Handler
+                0x08004684        0x8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08004684                NMI_Handler
  .text.HardFault_Handler
-                0x08004680        0x8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08004680                HardFault_Handler
+                0x0800468c        0x8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800468c                HardFault_Handler
  .text.MemManage_Handler
-                0x08004688        0x8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08004688                MemManage_Handler
+                0x08004694        0x8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+                0x08004694                MemManage_Handler
  .text.BusFault_Handler
-                0x08004690        0x8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08004690                BusFault_Handler
+                0x0800469c        0x8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0800469c                BusFault_Handler
  .text.UsageFault_Handler
-                0x08004698        0x8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08004698                UsageFault_Handler
+                0x080046a4        0x8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080046a4                UsageFault_Handler
  .text.SVC_Handler
-                0x080046a0        0xe CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080046a0                SVC_Handler
+                0x080046ac        0xe CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080046ac                SVC_Handler
  .text.DebugMon_Handler
-                0x080046ae        0xe CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080046ae                DebugMon_Handler
+                0x080046ba        0xe CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080046ba                DebugMon_Handler
  .text.PendSV_Handler
-                0x080046bc        0xe CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080046bc                PendSV_Handler
+                0x080046c8        0xe CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080046c8                PendSV_Handler
  .text.SysTick_Handler
-                0x080046ca        0xc CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
-                0x080046ca                SysTick_Handler
- *fill*         0x080046d6        0x2 
+                0x080046d6        0xc CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080046d6                SysTick_Handler
+ *fill*         0x080046e2        0x2 
  .text.HAL_MspInit
-                0x080046d8       0x50 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x080046d8                HAL_MspInit
- .text._sbrk    0x08004728       0x6c CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
-                0x08004728                _sbrk
- .text._getpid  0x08004794       0x10 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
-                0x08004794                _getpid
- .text._kill    0x080047a4       0x20 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
-                0x080047a4                _kill
- .text._exit    0x080047c4       0x16 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
-                0x080047c4                _exit
- .text._read    0x080047da       0x3a CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
-                0x080047da                _read
- .text._write   0x08004814       0x38 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
-                0x08004814                _write
- .text._close   0x0800484c       0x18 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
-                0x0800484c                _close
- .text._fstat   0x08004864       0x20 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
-                0x08004864                _fstat
- .text._isatty  0x08004884       0x16 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
-                0x08004884                _isatty
- .text._lseek   0x0800489a       0x1a CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
-                0x0800489a                _lseek
+                0x080046e4       0x50 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x080046e4                HAL_MspInit
+ .text._sbrk    0x08004734       0x6c CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
+                0x08004734                _sbrk
+ .text._getpid  0x080047a0       0x10 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+                0x080047a0                _getpid
+ .text._kill    0x080047b0       0x20 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+                0x080047b0                _kill
+ .text._exit    0x080047d0       0x16 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+                0x080047d0                _exit
+ .text._read    0x080047e6       0x3a CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+                0x080047e6                _read
+ .text._write   0x08004820       0x38 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+                0x08004820                _write
+ .text._close   0x08004858       0x18 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+                0x08004858                _close
+ .text._fstat   0x08004870       0x20 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+                0x08004870                _fstat
+ .text._isatty  0x08004890       0x16 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+                0x08004890                _isatty
+ .text._lseek   0x080048a6       0x1a CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+                0x080048a6                _lseek
  .text.Reset_Handler
-                0x080048b4       0x50 CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
-                0x080048b4                Reset_Handler
+                0x080048c0       0x50 CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
+                0x080048c0                Reset_Handler
  .text.Default_Handler
-                0x08004904        0x2 CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
-                0x08004904                RTC_Alarm_IRQHandler
-                0x08004904                HASH_RNG_IRQHandler
-                0x08004904                EXTI2_IRQHandler
-                0x08004904                TIM8_CC_IRQHandler
-                0x08004904                TIM1_CC_IRQHandler
-                0x08004904                DMA2_Stream5_IRQHandler
-                0x08004904                DMA1_Stream5_IRQHandler
-                0x08004904                PVD_IRQHandler
-                0x08004904                SDIO_IRQHandler
-                0x08004904                TAMP_STAMP_IRQHandler
-                0x08004904                CAN2_RX1_IRQHandler
-                0x08004904                EXTI3_IRQHandler
-                0x08004904                TIM8_TRG_COM_TIM14_IRQHandler
-                0x08004904                TIM1_UP_TIM10_IRQHandler
-                0x08004904                TIM8_UP_TIM13_IRQHandler
-                0x08004904                I2C3_ER_IRQHandler
-                0x08004904                EXTI0_IRQHandler
-                0x08004904                I2C2_EV_IRQHandler
-                0x08004904                DMA1_Stream2_IRQHandler
-                0x08004904                CAN1_RX0_IRQHandler
-                0x08004904                FPU_IRQHandler
-                0x08004904                OTG_HS_WKUP_IRQHandler
-                0x08004904                CAN2_SCE_IRQHandler
-                0x08004904                DMA2_Stream2_IRQHandler
-                0x08004904                SPI1_IRQHandler
-                0x08004904                TIM6_DAC_IRQHandler
-                0x08004904                TIM1_BRK_TIM9_IRQHandler
-                0x08004904                DCMI_IRQHandler
-                0x08004904                CAN2_RX0_IRQHandler
-                0x08004904                DMA2_Stream3_IRQHandler
-                0x08004904                USART6_IRQHandler
-                0x08004904                USART3_IRQHandler
-                0x08004904                CAN1_RX1_IRQHandler
-                0x08004904                UART5_IRQHandler
-                0x08004904                DMA2_Stream0_IRQHandler
-                0x08004904                TIM4_IRQHandler
-                0x08004904                I2C1_EV_IRQHandler
-                0x08004904                DMA1_Stream6_IRQHandler
-                0x08004904                DMA1_Stream1_IRQHandler
-                0x08004904                UART4_IRQHandler
-                0x08004904                TIM3_IRQHandler
-                0x08004904                RCC_IRQHandler
-                0x08004904                TIM8_BRK_TIM12_IRQHandler
-                0x08004904                Default_Handler
-                0x08004904                EXTI15_10_IRQHandler
-                0x08004904                ADC_IRQHandler
-                0x08004904                DMA1_Stream7_IRQHandler
-                0x08004904                TIM7_IRQHandler
-                0x08004904                CAN2_TX_IRQHandler
-                0x08004904                TIM5_IRQHandler
-                0x08004904                DMA2_Stream7_IRQHandler
-                0x08004904                I2C3_EV_IRQHandler
-                0x08004904                EXTI9_5_IRQHandler
-                0x08004904                RTC_WKUP_IRQHandler
-                0x08004904                ETH_WKUP_IRQHandler
-                0x08004904                SPI2_IRQHandler
-                0x08004904                OTG_HS_EP1_IN_IRQHandler
-                0x08004904                DMA1_Stream0_IRQHandler
-                0x08004904                CAN1_TX_IRQHandler
-                0x08004904                EXTI4_IRQHandler
-                0x08004904                FSMC_IRQHandler
-                0x08004904                ETH_IRQHandler
-                0x08004904                OTG_HS_EP1_OUT_IRQHandler
-                0x08004904                WWDG_IRQHandler
-                0x08004904                TIM2_IRQHandler
-                0x08004904                OTG_FS_WKUP_IRQHandler
-                0x08004904                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08004904                OTG_HS_IRQHandler
-                0x08004904                EXTI1_IRQHandler
-                0x08004904                USART2_IRQHandler
-                0x08004904                I2C2_ER_IRQHandler
-                0x08004904                DMA2_Stream1_IRQHandler
-                0x08004904                CAN1_SCE_IRQHandler
-                0x08004904                FLASH_IRQHandler
-                0x08004904                DMA2_Stream4_IRQHandler
-                0x08004904                USART1_IRQHandler
-                0x08004904                OTG_FS_IRQHandler
-                0x08004904                SPI3_IRQHandler
-                0x08004904                DMA1_Stream4_IRQHandler
-                0x08004904                I2C1_ER_IRQHandler
-                0x08004904                DMA2_Stream6_IRQHandler
-                0x08004904                DMA1_Stream3_IRQHandler
- *fill*         0x08004906        0x2 
+                0x08004910        0x2 CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
+                0x08004910                RTC_Alarm_IRQHandler
+                0x08004910                HASH_RNG_IRQHandler
+                0x08004910                EXTI2_IRQHandler
+                0x08004910                TIM8_CC_IRQHandler
+                0x08004910                TIM1_CC_IRQHandler
+                0x08004910                DMA2_Stream5_IRQHandler
+                0x08004910                DMA1_Stream5_IRQHandler
+                0x08004910                PVD_IRQHandler
+                0x08004910                SDIO_IRQHandler
+                0x08004910                TAMP_STAMP_IRQHandler
+                0x08004910                CAN2_RX1_IRQHandler
+                0x08004910                EXTI3_IRQHandler
+                0x08004910                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08004910                TIM1_UP_TIM10_IRQHandler
+                0x08004910                TIM8_UP_TIM13_IRQHandler
+                0x08004910                I2C3_ER_IRQHandler
+                0x08004910                EXTI0_IRQHandler
+                0x08004910                I2C2_EV_IRQHandler
+                0x08004910                DMA1_Stream2_IRQHandler
+                0x08004910                CAN1_RX0_IRQHandler
+                0x08004910                FPU_IRQHandler
+                0x08004910                OTG_HS_WKUP_IRQHandler
+                0x08004910                CAN2_SCE_IRQHandler
+                0x08004910                DMA2_Stream2_IRQHandler
+                0x08004910                SPI1_IRQHandler
+                0x08004910                TIM6_DAC_IRQHandler
+                0x08004910                TIM1_BRK_TIM9_IRQHandler
+                0x08004910                DCMI_IRQHandler
+                0x08004910                CAN2_RX0_IRQHandler
+                0x08004910                DMA2_Stream3_IRQHandler
+                0x08004910                USART6_IRQHandler
+                0x08004910                USART3_IRQHandler
+                0x08004910                CAN1_RX1_IRQHandler
+                0x08004910                UART5_IRQHandler
+                0x08004910                DMA2_Stream0_IRQHandler
+                0x08004910                TIM4_IRQHandler
+                0x08004910                I2C1_EV_IRQHandler
+                0x08004910                DMA1_Stream6_IRQHandler
+                0x08004910                DMA1_Stream1_IRQHandler
+                0x08004910                UART4_IRQHandler
+                0x08004910                TIM3_IRQHandler
+                0x08004910                RCC_IRQHandler
+                0x08004910                TIM8_BRK_TIM12_IRQHandler
+                0x08004910                Default_Handler
+                0x08004910                EXTI15_10_IRQHandler
+                0x08004910                ADC_IRQHandler
+                0x08004910                DMA1_Stream7_IRQHandler
+                0x08004910                TIM7_IRQHandler
+                0x08004910                CAN2_TX_IRQHandler
+                0x08004910                TIM5_IRQHandler
+                0x08004910                DMA2_Stream7_IRQHandler
+                0x08004910                I2C3_EV_IRQHandler
+                0x08004910                EXTI9_5_IRQHandler
+                0x08004910                RTC_WKUP_IRQHandler
+                0x08004910                ETH_WKUP_IRQHandler
+                0x08004910                SPI2_IRQHandler
+                0x08004910                OTG_HS_EP1_IN_IRQHandler
+                0x08004910                DMA1_Stream0_IRQHandler
+                0x08004910                CAN1_TX_IRQHandler
+                0x08004910                EXTI4_IRQHandler
+                0x08004910                FSMC_IRQHandler
+                0x08004910                ETH_IRQHandler
+                0x08004910                OTG_HS_EP1_OUT_IRQHandler
+                0x08004910                WWDG_IRQHandler
+                0x08004910                TIM2_IRQHandler
+                0x08004910                OTG_FS_WKUP_IRQHandler
+                0x08004910                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08004910                OTG_HS_IRQHandler
+                0x08004910                EXTI1_IRQHandler
+                0x08004910                USART2_IRQHandler
+                0x08004910                I2C2_ER_IRQHandler
+                0x08004910                DMA2_Stream1_IRQHandler
+                0x08004910                CAN1_SCE_IRQHandler
+                0x08004910                FLASH_IRQHandler
+                0x08004910                DMA2_Stream4_IRQHandler
+                0x08004910                USART1_IRQHandler
+                0x08004910                OTG_FS_IRQHandler
+                0x08004910                SPI3_IRQHandler
+                0x08004910                DMA1_Stream4_IRQHandler
+                0x08004910                I2C1_ER_IRQHandler
+                0x08004910                DMA2_Stream6_IRQHandler
+                0x08004910                DMA1_Stream3_IRQHandler
+ *fill*         0x08004912        0x2 
  .text.__udivmoddi4
-                0x08004908      0x2f8 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
-                0x08004908                __udivmoddi4
- .text.__errno  0x08004c00        0xc C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
-                0x08004c00                __errno
+                0x08004914      0x2f8 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+                0x08004914                __udivmoddi4
+ .text.__errno  0x08004c0c        0xc C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+                0x08004c0c                __errno
  *(.glue_7)
- .glue_7        0x08004c0c        0x0 linker stubs
+ .glue_7        0x08004c18        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08004c0c        0x0 linker stubs
+ .glue_7t       0x08004c18        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08004c0c        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x08004c18        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x08004c0c        0x4 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
-                0x08004c0c                _init
- .init          0x08004c10        0x8 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x08004c18        0x4 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x08004c18                _init
+ .init          0x08004c1c        0x8 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08004c18        0x4 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
-                0x08004c18                _fini
- .fini          0x08004c1c        0x8 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08004c24                        . = ALIGN (0x4)
-                0x08004c24                        _etext = .
+ .fini          0x08004c24        0x4 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x08004c24                _fini
+ .fini          0x08004c28        0x8 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08004c30                        . = ALIGN (0x4)
+                0x08004c30                        _etext = .
 
-.vfp11_veneer   0x08004c24        0x0
- .vfp11_veneer  0x08004c24        0x0 linker stubs
+.vfp11_veneer   0x08004c30        0x0
+ .vfp11_veneer  0x08004c30        0x0 linker stubs
 
-.v4_bx          0x08004c24        0x0
- .v4_bx         0x08004c24        0x0 linker stubs
+.v4_bx          0x08004c30        0x0
+ .v4_bx         0x08004c30        0x0 linker stubs
 
-.iplt           0x08004c24        0x0
- .iplt          0x08004c24        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x08004c30        0x0
+ .iplt          0x08004c30        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08004c28      0x384
-                0x08004c28                        . = ALIGN (0x4)
+.rodata         0x08004c30      0x384
+                0x08004c30                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata._printf_float.str1.1
-                0x08004c28      0x173 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_float.o)
+                0x08004c30      0x173 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_float.o)
                                  0x12 (size before relaxing)
  .rodata._printf_i.str1.1
-                0x08004d9b       0x22 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08004da3       0x22 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
  .rodata._dtoa_r.str1.1
-                0x08004d9b       0x90 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-dtoa.o)
+                0x08004da3       0x90 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-dtoa.o)
  .rodata._Balloc.str1.1
-                0x08004d9b       0x71 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
+                0x08004da3       0x71 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
  .rodata.__multadd.str1.1
-                0x08004d9b       0x11 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
- *fill*         0x08004d9b        0x1 
- .rodata.p05.0  0x08004d9c        0xc C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
+                0x08004da3       0x11 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
+ *fill*         0x08004da3        0x1 
+ .rodata.p05.0  0x08004da4        0xc C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
  .rodata.__mprec_bigtens
-                0x08004da8       0x28 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
-                0x08004da8                __mprec_bigtens
+                0x08004db0       0x28 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
+                0x08004db0                __mprec_bigtens
  .rodata.__mprec_tens
-                0x08004dd0       0xc8 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
-                0x08004dd0                __mprec_tens
+                0x08004dd8       0xc8 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mprec.o)
+                0x08004dd8                __mprec_tens
  .rodata._setlocale_r.str1.1
-                0x08004e98        0x9 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-locale.o)
+                0x08004ea0        0x9 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-locale.o)
  .rodata.str1.1
-                0x08004e98        0x2 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-locale.o)
+                0x08004ea0        0x2 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-locale.o)
  .rodata.__assert_func.str1.1
-                0x08004e98       0x3d C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-assert.o)
+                0x08004ea0       0x3d C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-assert.o)
  .rodata._ctype_
-                0x08004e98      0x101 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-ctype_.o)
-                0x08004e98                _ctype_
+                0x08004ea0      0x101 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-ctype_.o)
+                0x08004ea0                _ctype_
  .rodata._vfprintf_r.str1.1
-                0x08004f99       0x11 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
- *fill*         0x08004f99        0x3 
+                0x08004fa1       0x11 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ *fill*         0x08004fa1        0x3 
  .rodata.AHBPrescTable
-                0x08004f9c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
-                0x08004f9c                AHBPrescTable
-                0x08004fac                        . = ALIGN (0x4)
+                0x08004fa4       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
+                0x08004fa4                AHBPrescTable
+                0x08004fb4                        . = ALIGN (0x4)
 
-.ARM.extab      0x08004fac        0x0
-                0x08004fac                        . = ALIGN (0x4)
+.ARM.extab      0x08004fb4        0x0
+                0x08004fb4                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08004fac                        . = ALIGN (0x4)
+                0x08004fb4                        . = ALIGN (0x4)
 
-.ARM            0x08004fac        0x8
-                0x08004fac                        . = ALIGN (0x4)
-                0x08004fac                        __exidx_start = .
+.ARM            0x08004fb4        0x8
+                0x08004fb4                        . = ALIGN (0x4)
+                0x08004fb4                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08004fac        0x8 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memchr.o)
- .ARM.exidx     0x08004fb4        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
+ .ARM.exidx     0x08004fb4        0x8 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memchr.o)
+ .ARM.exidx     0x08004fbc        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__udivmoddi4
-                0x08004fb4        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+                0x08004fbc        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x08004fb4                        __exidx_end = .
-                0x08004fb4                        . = ALIGN (0x4)
+                0x08004fbc                        __exidx_end = .
+                0x08004fbc                        . = ALIGN (0x4)
 
-.preinit_array  0x08004fb4        0x0
-                0x08004fb4                        . = ALIGN (0x4)
-                0x08004fb4                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08004fbc        0x0
+                0x08004fbc                        . = ALIGN (0x4)
+                0x08004fbc                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08004fb4                        PROVIDE (__preinit_array_end = .)
-                0x08004fb4                        . = ALIGN (0x4)
+                0x08004fbc                        PROVIDE (__preinit_array_end = .)
+                0x08004fbc                        . = ALIGN (0x4)
 
-.init_array     0x08004fb4        0x4
-                0x08004fb4                        . = ALIGN (0x4)
-                0x08004fb4                        PROVIDE (__init_array_start = .)
+.init_array     0x08004fbc        0x4
+                0x08004fbc                        . = ALIGN (0x4)
+                0x08004fbc                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08004fb4        0x4 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08004fb8                        PROVIDE (__init_array_end = .)
-                0x08004fb8                        . = ALIGN (0x4)
+ .init_array    0x08004fbc        0x4 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08004fc0                        PROVIDE (__init_array_end = .)
+                0x08004fc0                        . = ALIGN (0x4)
 
-.fini_array     0x08004fb8        0x4
-                0x08004fb8                        . = ALIGN (0x4)
+.fini_array     0x08004fc0        0x4
+                0x08004fc0                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08004fb8        0x4 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x08004fc0        0x4 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08004fbc                        . = ALIGN (0x4)
-                0x08004fbc                        _sidata = LOADADDR (.data)
+                0x08004fc4                        . = ALIGN (0x4)
+                0x08004fc4                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08004fbc        0x0
- .rel.iplt      0x08004fbc        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x08004fc4        0x0
+ .rel.iplt      0x08004fc4        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x20000000      0x1d4 load address 0x08004fbc
+.data           0x20000000      0x1d4 load address 0x08004fc4
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -2977,19 +2977,19 @@ LOAD C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/.
                 0x200001d4                        . = ALIGN (0x4)
  *fill*         0x200001d1        0x3 
                 0x200001d4                        _edata = .
-                0x08005190                        _siccmram = LOADADDR (.ccmram)
+                0x08005198                        _siccmram = LOADADDR (.ccmram)
 
 .tm_clone_table
-                0x200001d4        0x0 load address 0x08005190
+                0x200001d4        0x0 load address 0x08005198
  .tm_clone_table
                 0x200001d4        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
  .tm_clone_table
                 0x200001d4        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
 
-.igot.plt       0x200001d4        0x0 load address 0x08005190
+.igot.plt       0x200001d4        0x0 load address 0x08005198
  .igot.plt      0x200001d4        0x0 C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x08005190
+.ccmram         0x10000000        0x0 load address 0x08005198
                 0x10000000                        . = ALIGN (0x4)
                 0x10000000                        _sccmram = .
  *(.ccmram)
@@ -2998,7 +2998,7 @@ LOAD C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/.
                 0x10000000                        _eccmram = .
                 0x10000000                        . = ALIGN (0x4)
 
-.bss            0x200001d4      0x170
+.bss            0x200001d4      0x174
                 0x200001d4                        _sbss = .
                 0x200001d4                        __bss_start__ = _sbss
  *(.bss)
@@ -3029,17 +3029,18 @@ LOAD C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/.
                 0x20000338                __malloc_free_list
  .bss.uwTick    0x2000033c        0x4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                 0x2000033c                uwTick
+ .bss.test_cnt  0x20000340        0x4 CMakeFiles/led_blink.dir/Core/Src/main.c.obj
+                0x20000340                test_cnt
  .bss.__sbrk_heap_end
-                0x20000340        0x4 CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
+                0x20000344        0x4 CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
  *(COMMON)
-                0x20000344                        . = ALIGN (0x4)
-                0x20000344                        _ebss = .
-                0x20000344                        __bss_end__ = _ebss
+                0x20000348                        . = ALIGN (0x4)
+                0x20000348                        _ebss = .
+                0x20000348                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000344      0x604
+                0x20000348      0x600
                 0x20000348                        . = ALIGN (0x8)
- *fill*         0x20000344        0x4 
                 [!provide]                        PROVIDE (end = .)
                 0x20000348                        PROVIDE (_end = .)
                 0x20000548                        . = (. + _Min_Heap_Size)
@@ -3294,33 +3295,33 @@ LOAD C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/.
  .debug_line_str
                 0x00000234       0xcd C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
 
-.debug_info     0x00000000     0x407a
+.debug_info     0x00000000     0x408c
  .debug_info    0x00000000      0x512 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
  .debug_info    0x00000512      0x8af cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_info    0x00000dc1      0x6c3 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_info    0x00001484      0xd8c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_info    0x00002210      0x944 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_info    0x00002b54      0x583 CMakeFiles/led_blink.dir/Core/Src/main.c.obj
- .debug_info    0x000030d7      0x3ed CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj
- .debug_info    0x000034c4      0x112 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_info    0x000035d6      0x269 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x0000383f      0x168 CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
- .debug_info    0x000039a7      0x6a3 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
- .debug_info    0x0000404a       0x30 CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
+ .debug_info    0x00002b54      0x595 CMakeFiles/led_blink.dir/Core/Src/main.c.obj
+ .debug_info    0x000030e9      0x3ed CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj
+ .debug_info    0x000034d6      0x112 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_info    0x000035e8      0x269 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x00003851      0x168 CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x000039b9      0x6a3 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x0000405c       0x30 CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
 
-.debug_abbrev   0x00000000     0x11f6
+.debug_abbrev   0x00000000     0x1209
  .debug_abbrev  0x00000000      0x11a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
  .debug_abbrev  0x0000011a      0x2b7 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_abbrev  0x000003d1      0x1d4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_abbrev  0x000005a5      0x31d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_abbrev  0x000008c2      0x214 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_abbrev  0x00000ad6      0x1ed CMakeFiles/led_blink.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000cc3      0x152 CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x00000e15       0x73 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_abbrev  0x00000e88       0xd8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_abbrev  0x00000f60       0xbc CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
- .debug_abbrev  0x0000101c      0x1b6 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
- .debug_abbrev  0x000011d2       0x24 CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
+ .debug_abbrev  0x00000ad6      0x200 CMakeFiles/led_blink.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000cd6      0x152 CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x00000e28       0x73 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_abbrev  0x00000e9b       0xd8 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_abbrev  0x00000f73       0xbc CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x0000102f      0x1b6 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x000011e5       0x24 CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
 
 .debug_aranges  0x00000000      0x4e8
  .debug_aranges
@@ -3467,31 +3468,31 @@ LOAD C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/.
  .debug_macro   0x000207b9       0x16 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
  .debug_macro   0x000207cf       0xce CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
 
-.debug_line     0x00000000     0x54a3
+.debug_line     0x00000000     0x54a8
  .debug_line    0x00000000      0x66b cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
  .debug_line    0x0000066b      0xce7 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_line    0x00001352      0xa30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_line    0x00001d82      0xba8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_line    0x0000292a      0x8d8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x00003202      0x66d CMakeFiles/led_blink.dir/Core/Src/main.c.obj
- .debug_line    0x0000386f      0x5f5 CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj
- .debug_line    0x00003e64      0x695 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x000044f9      0x5e6 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x00004adf      0x313 CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
- .debug_line    0x00004df2      0x637 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00005429       0x7a CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
+ .debug_line    0x00003202      0x672 CMakeFiles/led_blink.dir/Core/Src/main.c.obj
+ .debug_line    0x00003874      0x5f5 CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj
+ .debug_line    0x00003e69      0x695 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x000044fe      0x5e6 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00004ae4      0x313 CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x00004df7      0x637 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x0000542e       0x7a CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
 
-.debug_str      0x00000000    0xc1886
- .debug_str     0x00000000    0xc1886 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
+.debug_str      0x00000000    0xc188f
+ .debug_str     0x00000000    0xc188f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
                               0xbb0a3 (size before relaxing)
- .debug_str     0x000c1886    0xbb4d7 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_str     0x000c1886    0xbb21e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_str     0x000c1886    0xbb9a3 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_str     0x000c1886    0xbbc27 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_str     0x000c1886    0xbb244 CMakeFiles/led_blink.dir/Core/Src/main.c.obj
- .debug_str     0x000c1886    0xbb0e5 CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj
- .debug_str     0x000c1886    0xbafa0 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_str     0x000c1886    0xbb01a CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_str     0x000c1886     0x710b CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
- .debug_str     0x000c1886     0x9406 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
- .debug_str     0x000c1886       0x7a CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
+ .debug_str     0x000c188f    0xbb4d7 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_str     0x000c188f    0xbb21e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_str     0x000c188f    0xbb9a3 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_str     0x000c188f    0xbbc27 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_str     0x000c188f    0xbb24d CMakeFiles/led_blink.dir/Core/Src/main.c.obj
+ .debug_str     0x000c188f    0xbb0e5 CMakeFiles/led_blink.dir/Core/Src/gpio.c.obj
+ .debug_str     0x000c188f    0xbafa0 CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_str     0x000c188f    0xbb01a CMakeFiles/led_blink.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_str     0x000c188f     0x710b CMakeFiles/led_blink.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x000c188f     0x9406 CMakeFiles/led_blink.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x000c188f       0x7a CMakeFiles/led_blink.dir/startup_stm32f407xx.s.obj
