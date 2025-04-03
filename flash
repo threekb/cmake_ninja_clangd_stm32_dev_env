@@ -1,6 +1,8 @@
 source [find interface/cmsis-dap.cfg]
 source [find target/stm32f4x.cfg]
 
+adapter speed 10000
+
 program C:/Users/Admin/Desktop/led_blink/build/led_blink.bin 0x08000000 verify reset exit
 
 # you can use this file by executing openocd -f flash in your terminal

@@ -18,7 +18,11 @@
         "searchDir": [],
         "runToEntryPoint": "main",
         "showDevDebugOutput": "raw",
-        "armToolchainPath": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin"
+        "armToolchainPath": "C:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin",
+        "liveWatch": {
+            "enabled": true,
+            "samplesPerSecond": 4
+        }
     }
     ]
 }
